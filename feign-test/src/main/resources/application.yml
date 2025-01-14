@@ -1,0 +1,13 @@
+test:
+  feign:
+    url: localhost:9999
+
+spring:
+  application:
+    name: feign-test
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+      discovery:
+        namespace: dev
+        group: test
